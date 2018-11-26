@@ -1,13 +1,39 @@
 import java.util.*;
+
 public class Preparation {
 
 	public static void main(String[] args) {
+
+		System.out.println("Chaque joueur prend un chateau de couleur");
+		System.out.println("Chaque joueur prend une tuile de départ");
 		System.out.println("A combien jouez-vous?");
-		Scanner scan = new Scanner (System.in);
-		
-    
-		
-		
+		Scanner scan = new Scanner(System.in);
+		int n = scan.nextInt();
+		if (n == 2) {
+			System.out.println("Chaque joueur prend 2 rois de la couleur du chateau.");
+			System.out.println("On prend les dominos numérotés avec les numéros de la liste suivante : ");
+			ArrayList<Integer> list = new ArrayList<Integer>();
+			for (int i = 1; i < 25; i++) {
+				list.add((int)(Math.random()*24)+1);
+			}
+			System.out.println(list);
+
+		}
+		if (n == 3) {
+			System.out.println("Chaque joueur prend 1 roi de la couleur du chateau.");
+			System.out.println("On prend les dominos numérotés avec les numéros de la liste suivante : ");
+			ArrayList<Double> list = new ArrayList<Double>();
+			for (int i = 1; i < 37; i++) {
+				list.add(Math.floor(Math.random() * 37));
+			}
+			System.out.println(list);
+
+		}
+		if (n == 4) {
+			System.out.println("Chaque joueur prend 1 roi de la couleur du chateau.");
+			System.out.println("On prend tous les dominos");
+
+		}
 
 	}
 
