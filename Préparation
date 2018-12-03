@@ -6,7 +6,7 @@ public class Preparation {
 
 		System.out.println("Chaque joueur prend un chateau de couleur");
 		System.out.println("Chaque joueur prend une tuile de départ");
-		System.out.println("A combien jouez-vous?");
+		System.out.println("A combien jouez-vous ?");
 		Scanner scan = new Scanner(System.in);
 		int n = scan.nextInt();
 		if (n == 2) {
