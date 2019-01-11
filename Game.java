@@ -34,14 +34,22 @@ public class Game {
 			System.out.println(playerList.get(1).nom);
 			//k = 24;
 			break;
-/*		case "3" : 
-			System.out.println("Tapez le nom du joueur 3 : ");
-			String nomJoueur3 = scan.nextLine();
+		case "3" : 
+			int i = 1;
+			while(i < 4) {
+				System.out.println("Tapez le nom du joueur " + i + " : ");
+				String nomJoueur = scan.nextLine();
+				String couleur = couleurs[i-1];
+				addPlayer(playerList, i, nomJoueur, couleur);
+				i++;
+			}
 			
 			System.out.println("On va jouer avec 36 dominos");
-			k = 36;
+			System.out.println(playerList.get(0).nom);
+			System.out.println(playerList.get(1).nom);
+			System.out.println(playerList.get(2).nom);
+			//k = 36;
 			break;
-			*/
 		case "4" : 
 			int j = 1;
 			while(j < 5) {
