@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class Joueur {
 	
 	public String nom ;
@@ -13,7 +11,29 @@ public class Joueur {
 		
 	}
 	
-	public void addPlayer( ) {
-		
+	public String getNom() {
+		return this.nom;
 	}
+	
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public String getCouleur() {
+		return couleur;
+	}
+
+	public void setCouleur(String couleur) {
+		this.couleur = couleur;
+	}
+
+	public int getNumero() {
+		return numero;
+	}
+
+	public void setNumero(int numero) {
+		this.numero = numero;
+	}
+	
+	
 }
