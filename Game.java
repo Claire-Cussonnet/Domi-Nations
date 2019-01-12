@@ -6,7 +6,7 @@ public class Game {
 
 	public static void main(String[] args) {
 		
-		String[] couleurs = {"pink","yellow", "blue", "green"};
+		String[] couleurs = {"Pink","Yellow", "Blue", "Green"};
 		
 		// Initialisation liste des joueurs
 		ArrayList<Joueur> playerList = new ArrayList<>();
@@ -33,7 +33,7 @@ public class Game {
 			
 			System.out.println("On va jouer avec 24 dominos");
 			System.out.println(playerList.get(0).getNom() + " " + playerList.get(0).getCouleur() );
-			System.out.println(playerList.get(1));
+			System.out.println(playerList.get(1).getNom() + " " + playerList.get(1).getCouleur() );
 			//k = 24;
 			break;
 		case 3 : 
@@ -47,9 +47,9 @@ public class Game {
 			}
 			
 			System.out.println("On va jouer avec 36 dominos");
-			System.out.println(playerList.get(0));
-			System.out.println(playerList.get(1));
-			System.out.println(playerList.get(2));
+			System.out.println(playerList.get(0).getNom() + " " + playerList.get(0).getCouleur() );
+			System.out.println(playerList.get(1).getNom() + " " + playerList.get(1).getCouleur() );
+			System.out.println(playerList.get(2).getNom() + " " + playerList.get(2).getCouleur() );
 			//k = 36;
 			break;
 		case 4 : 
@@ -64,9 +64,9 @@ public class Game {
 
 			System.out.println("On va jouer avec 48 dominos");
 			System.out.println(playerList.get(0).getNom() + " " + playerList.get(0).getCouleur() );
-			System.out.println(playerList.get(1));
-			System.out.println(playerList.get(2));
-			System.out.println(playerList.get(3));
+			System.out.println(playerList.get(1).getNom() + " " + playerList.get(1).getCouleur() );
+			System.out.println(playerList.get(2).getNom() + " " + playerList.get(2).getCouleur() );
+			System.out.println(playerList.get(3).getNom() + " " + playerList.get(3).getCouleur() );
 			//k = 48;
 			break;
 		
