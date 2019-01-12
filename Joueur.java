@@ -4,6 +4,7 @@ public class Joueur {
 	public String couleur ;
 	public int numero ;
 	
+	//Pour chaque joueur on définit un numéro, un nom et une couleur
 	public Joueur(int numero, String nom, String couleur) {
 		this.numero = numero ;
 		this.nom = nom ; 
