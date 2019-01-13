@@ -67,7 +67,7 @@ public class Domino {
 		BufferedReader buff = null;
 		String ligne = null;
 		try {
-			buff = new BufferedReader(new FileReader("/Users/clairecussonnet/Downloads/dominos.csv"));
+			buff = new BufferedReader(new FileReader("C:\Users\Julie\IdeaProjects\Domi_Nation\src\Interfgraph\dominos.csv"));
 
 		} catch (FileNotFoundException exc) {
 			System.out.println("Erreur d'ouverture");
